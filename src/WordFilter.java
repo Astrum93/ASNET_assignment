@@ -10,8 +10,6 @@ public class WordFilter {
      * @return 금지어의 등장 횟수와 목록
      */
 
-    String userContent = "오늘은 너무 힘든 하루 였다. 나무 숲, 바다, 파도, 나무 나무 나무 나 무 숲 숲 숲 숲";
-    String[] blackWordList = {"나무","숲"};
     Map<String, Integer> result = new HashMap<>();
 
 
